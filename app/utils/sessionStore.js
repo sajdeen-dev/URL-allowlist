@@ -13,7 +13,7 @@ export async function restoreSessionCookies() {
   try {
     const raw = await AsyncStorage.getItem(STORAGE_KEY);
     if (!raw) {
-      return;
+      return; 
     }
     let parsed;
     try {
