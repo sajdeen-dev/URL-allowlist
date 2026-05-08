@@ -1,6 +1,6 @@
 /**
  * ECOM Buddy — Meesho supplier panel URL policy.
- * Allowed paths on supplier.meesho.com: login, /home, /orders/, /returns/, /scan-now.
+ * Allowed  paths on supplier.meesho.com: login, /home, /orders/, /returns/, /scan-now.
  */
 
 export const MEESHO_HOST = 'supplier.meesho.com';
