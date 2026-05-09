@@ -7,7 +7,7 @@ const MEESHO_ORIGIN = 'https://supplier.meesho.com';
 
 function cookieStoreUseWebKit() {
   return Platform.OS === 'ios';
-}
+} 
 
 export async function restoreSessionCookies() {
   try {
